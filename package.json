@@ -1,0 +1,21 @@
+{
+  "name": "node-with-fastfy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/server.ts"
+  },
+  "repository": "https://github.com/correamat/node-with-fastfy.git",
+  "author": "Matheus Correa <matheus@poupacred.com.br>",
+  "license": "MIT",
+  "devDependencies": {
+    "prisma": "^5.19.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.19.0",
+    "fastify": "^4.28.1"
+  }
+}
